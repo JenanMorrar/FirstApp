@@ -1,0 +1,12 @@
+
+<!--<div>{{gifs.data}}</div>-->
+
+<div class="row">
+<div *ngFor="let gif of gifs.data">
+  <div class="column">
+    <img class="gif-style" src="{{gif.images.downsized.url}}">
+    <p class="p-style">Username:{{gif.username}}</p>
+    <p class="p-style">Date:{{gif.import_datetime}}</p>
+  </div>
+</div>
+</div>

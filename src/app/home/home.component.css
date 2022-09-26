@@ -1,0 +1,12 @@
+.images-title{
+  text-align: center;
+  color: #751aff;
+  margin-bottom: 2%;
+  margin-top: 5%;
+}
+.img-style{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

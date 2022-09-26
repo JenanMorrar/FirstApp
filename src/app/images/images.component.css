@@ -1,0 +1,21 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 120px;
+  margin: 5%;
+}
+
+.column {
+  flex: 40%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  height: 250px;
+  width: 400px;
+}
+.p-style{
+  text-align: center;
+}
